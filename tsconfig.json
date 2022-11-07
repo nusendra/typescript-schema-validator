@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "outDir": "./build",
+    "outDir": "./lib",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

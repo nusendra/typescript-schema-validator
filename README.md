@@ -14,8 +14,7 @@ yarn add typescript-schema-validator -D
 ```
 
 ### Steps
-1. Install [ts-node](https://github.com/TypeStrong/ts-node) / [ts-node-dev](https://github.com/wclr/ts-node-dev) to run the schema generator
-2. Create a schema file in ts
+1. Create a schema file in ts
 
 ```typescript
 // schema.ts
@@ -27,7 +26,7 @@ export interface UserRequest {
 3. Add a script (package.json) to generate your schema file
 ```json
 "scripts": {
-  "generate-schema": "ts-node ./node_modules/typescript-schema-validator/schema-generator.ts"
+  "generate-schema": "node ./node_modules/typescript-schema-validator/lib/schema-generator.js"
 }
 ```
 4. Run the generator
