@@ -1,6 +1,6 @@
 {
   "name": "typescript-schema-validator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Generate TS interfaces / types to json schema for validation in runtime",
   "author": "Nusendra Hanggarawan",
   "license": "ISC",

@@ -26,12 +26,15 @@ export interface UserRequest {
 3. Add a script (package.json) to generate your schema file
 ```json
 "scripts": {
-  "generate-schema": "node ./node_modules/typescript-schema-validator/lib/schema-generator.js"
+  "generate-ts-schema": "generate-schema"
 }
 ```
-4. Run the generator
+4. Run the generator from package.json scripts
 ```
+yarn generate-ts-schema <schema fille> <new generated file name>
+or directly from package command line
 yarn generate-schema <schema fille> <new generated file name>
+
 ```
 example
 ```
