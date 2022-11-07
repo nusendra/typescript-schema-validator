@@ -1,13 +1,16 @@
 {
   "name": "typescript-schema-validator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate TS interfaces / types to json schema for validation in runtime",
   "author": "Nusendra Hanggarawan",
   "license": "ISC",
   "homepage": "https://github.com/nusendra/typescript-schema-validator.git",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "generate-schema": "./bin/cli.js"
+  },
   "scripts": {
-    "build": "rm -rf lib && tsc",
+    "build": "rm -rf dist && tsc",
     "generate-ts-schema": "node lib/schema-generator.js"
   },
   "dependencies": {
