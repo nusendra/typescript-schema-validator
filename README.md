@@ -23,7 +23,7 @@ export interface UserRequest {
   email: string;
 }
 ```
-3. Add a script (package.json) to generate your schema file
+3. Add a script (package.json) to generate your schema file (Optional). You can generate schema file directly with this package's CLI `generate-schema`
 ```json
 "scripts": {
   "generate-ts-schema": "generate-schema"
@@ -34,7 +34,6 @@ export interface UserRequest {
 yarn generate-ts-schema <schema fille> <new generated file name>
 or directly from package command line
 yarn generate-schema <schema fille> <new generated file name>
-
 ```
 example
 ```
