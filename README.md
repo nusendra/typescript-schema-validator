@@ -27,7 +27,7 @@ export interface UserRequest {
 3. Add a script (package.json) to generate your schema file
 ```json
 "scripts": {
-  "generate-schema": "ts-node ./node_modules/typescript-schema-validator/src/schema-generator.ts"
+  "generate-schema": "ts-node ./node_modules/typescript-schema-validator/schema-generator.ts"
 }
 ```
 4. Run the generator
